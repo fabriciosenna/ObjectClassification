@@ -15,7 +15,10 @@
 		981A288B3C2308CFA7D83C9BC4383A0D /* ObjectClassification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB585CE710ECF1DB71998A173634F261 /* ObjectClassification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BB4A9980F89847C769347A69F0C5DDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		DEA8BE6EF9671B49043A962FB1AD8647 /* ObjectClassification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F34B1A2F8A0CA55C73BD10693B4B7818 /* ObjectClassification-dummy.m */; };
-		DF37CF7F25B228D4003705CD /* MobileNetV2Int8LUT.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DF37CF7E25B228D4003705CD /* MobileNetV2Int8LUT.mlmodel */; };
+		DF37CFA125B232CD003705CD /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DF37CFA025B232CD003705CD /* MobileNet.mlmodel */; };
+		DF37CFA625B232FD003705CD /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF37CFA525B232FD003705CD /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		DF37CFB425B23460003705CD /* ImageClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF37CFB225B23460003705CD /* ImageClassificationViewController.swift */; };
+		DF37CFB525B23460003705CD /* ImageClassificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF37CFB325B23460003705CD /* ImageClassificationViewController.xib */; };
 		F033356CD7845778282F12E7A4173585 /* Pods-ObjectClassification_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DA76466890C34247C737CB09156D67 /* Pods-ObjectClassification_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -62,7 +65,10 @@
 		C3BBB0B2C606E96B68F948F1BBE62393 /* Pods-ObjectClassification_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ObjectClassification_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C703986E57406A7520F8DE8DD1569546 /* Pods-ObjectClassification_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ObjectClassification_Example.modulemap"; sourceTree = "<group>"; };
 		DD692992C9C351657BDF20CA3F7FFAB0 /* Pods-ObjectClassification_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ObjectClassification_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DF37CF7E25B228D4003705CD /* MobileNetV2Int8LUT.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2Int8LUT.mlmodel; sourceTree = "<group>"; };
+		DF37CFA025B232CD003705CD /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		DF37CFA525B232FD003705CD /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		DF37CFB225B23460003705CD /* ImageClassificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassificationViewController.swift; sourceTree = "<group>"; };
+		DF37CFB325B23460003705CD /* ImageClassificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageClassificationViewController.xib; sourceTree = "<group>"; };
 		E1E28822EB574FB80FEACE5E8604BEF2 /* Pods-ObjectClassification_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjectClassification_Tests-Info.plist"; sourceTree = "<group>"; };
 		E806F59A86F860A254F9D086FC0F7AF5 /* Pods-ObjectClassification_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjectClassification_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F2A74CBB48C6F92608E426CCCE7D3920 /* Pods-ObjectClassification_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjectClassification_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -103,12 +109,12 @@
 		0FB8E2B52D043A045E26B17618A3D6CD /* ObjectClassification */ = {
 			isa = PBXGroup;
 			children = (
-				DF37CF7D25B22896003705CD /* Controllers */,
-				DF37CF7C25B2288E003705CD /* Service */,
-				DF37CF7B25B2287F003705CD /* Helpers */,
-				DF37CF7A25B22873003705CD /* Resources */,
+				DF37CFA025B232CD003705CD /* MobileNet.mlmodel */,
 				70F3EB409945DD7429C84EA705634AE5 /* Pod */,
 				916A46EB7BA110DDE36F6C9267C4C569 /* Support Files */,
+				DF37CFA525B232FD003705CD /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+				DF37CFB225B23460003705CD /* ImageClassificationViewController.swift */,
+				DF37CFB325B23460003705CD /* ImageClassificationViewController.xib */,
 			);
 			name = ObjectClassification;
 			path = ../..;
@@ -218,35 +224,6 @@
 			path = "Target Support Files/Pods-ObjectClassification_Example";
 			sourceTree = "<group>";
 		};
-		DF37CF7A25B22873003705CD /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				DF37CF7E25B228D4003705CD /* MobileNetV2Int8LUT.mlmodel */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		DF37CF7B25B2287F003705CD /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		DF37CF7C25B2288E003705CD /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		DF37CF7D25B22896003705CD /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
 		EF615447249D84CA805DA629BE60373F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -349,6 +326,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					0DFDBC6DE1272B007704BCFC94B67582 = {
+						LastSwiftMigration = 1230;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -389,6 +371,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF37CFB525B23460003705CD /* ImageClassificationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,8 +390,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF37CFB425B23460003705CD /* ImageClassificationViewController.swift in Sources */,
+				DF37CFA125B232CD003705CD /* MobileNet.mlmodel in Sources */,
+				DF37CFA625B232FD003705CD /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
 				DEA8BE6EF9671B49043A962FB1AD8647 /* ObjectClassification-dummy.m in Sources */,
-				DF37CF7F25B228D4003705CD /* MobileNetV2Int8LUT.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,6 +557,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C532C273B4F9E308186EDA13F08A9A0 /* ObjectClassification.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -591,6 +577,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -696,6 +683,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F5DB922AB6B2477977B53A217E7AF0ED /* ObjectClassification.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
