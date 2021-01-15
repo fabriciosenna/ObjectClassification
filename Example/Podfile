@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ObjectClassification_Example' do
+  pod 'ObjectClassification', :path => '../'
+
+  target 'ObjectClassification_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
