@@ -8,7 +8,7 @@
 import UIKit
 import Vision
 
-class AnalysisResultViewController: UIViewController {
+public class AnalysisResultViewController: UIViewController {
     
     @IBOutlet weak var uiResultImageView: UIImageView!
     @IBOutlet weak var uiResulLabel: UILabel!
@@ -27,13 +27,13 @@ class AnalysisResultViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func viewDidLoad() {
+  public  override func viewDidLoad() {
         super.viewDidLoad()
         setupResults()
     }
     
     //MARK: - Methods
-    private func setupResults() {
+    public  func setupResults() {
         uiResultImageView.image = imageToLoad
         if let firstResult = results.first {
             uiResulLabel.text = firstResult.identifier
