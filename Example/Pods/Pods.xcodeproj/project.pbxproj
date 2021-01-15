@@ -12,10 +12,10 @@
 		1837B97FF8A5AE2530B7DD6B1FF0EEEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		394E8008A4436C1C37D82BCA6A55F1D6 /* Pods-ObjectClassification_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A06D9C75B4106E9B18DA66A7BDA74850 /* Pods-ObjectClassification_Example-dummy.m */; };
 		5D78FCC59A7A54D067DAB96D0F9C2C9D /* Pods-ObjectClassification_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8624AF36F859FD385F83DBA489C0B4E4 /* Pods-ObjectClassification_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		699FC51AFB6BD3E42B5522DA1CC764F6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2C8A8426648D39D9E03B0EFD04DA13 /* ReplaceMe.swift */; };
 		981A288B3C2308CFA7D83C9BC4383A0D /* ObjectClassification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB585CE710ECF1DB71998A173634F261 /* ObjectClassification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BB4A9980F89847C769347A69F0C5DDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		DEA8BE6EF9671B49043A962FB1AD8647 /* ObjectClassification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F34B1A2F8A0CA55C73BD10693B4B7818 /* ObjectClassification-dummy.m */; };
+		DF37CF7F25B228D4003705CD /* MobileNetV2Int8LUT.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DF37CF7E25B228D4003705CD /* MobileNetV2Int8LUT.mlmodel */; };
 		F033356CD7845778282F12E7A4173585 /* Pods-ObjectClassification_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DA76466890C34247C737CB09156D67 /* Pods-ObjectClassification_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -38,31 +38,31 @@
 
 /* Begin PBXFileReference section */
 		036A63766B5CB5B3987809F9DF779362 /* ObjectClassification-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectClassification-prefix.pch"; sourceTree = "<group>"; };
-		27831154E0E8D9255ABD35F67FE42640 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		27831154E0E8D9255ABD35F67FE42640 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		416A5014507BC7BBEE151E9E5D525440 /* ObjectClassification-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ObjectClassification-Info.plist"; sourceTree = "<group>"; };
 		42EBE1F7DD3BF9603F410A56902DC5FA /* Pods-ObjectClassification_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjectClassification_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		48CC6C74B4067632E21F2AB483B0C348 /* Pods-ObjectClassification_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ObjectClassification_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		49DA76466890C34247C737CB09156D67 /* Pods-ObjectClassification_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ObjectClassification_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4E2C8A8426648D39D9E03B0EFD04DA13 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ObjectClassification/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		581924CAEC5A0040DDF40C0AE739AFB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		581924CAEC5A0040DDF40C0AE739AFB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		651CB5ADEBCDDEE2C2DB0FCF01051DD1 /* Pods-ObjectClassification_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjectClassification_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		80A2C8B90F067B6A572EBEFE58DAABA9 /* Pods_ObjectClassification_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ObjectClassification_Tests.framework; path = "Pods-ObjectClassification_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A2C8B90F067B6A572EBEFE58DAABA9 /* Pods_ObjectClassification_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectClassification_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A7D7C302A50173689515A979FDA44C /* Pods-ObjectClassification_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjectClassification_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8624AF36F859FD385F83DBA489C0B4E4 /* Pods-ObjectClassification_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ObjectClassification_Example-umbrella.h"; sourceTree = "<group>"; };
-		8AF68A9AFED50D32DF2052D09262AE0D /* Pods_ObjectClassification_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ObjectClassification_Example.framework; path = "Pods-ObjectClassification_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF68A9AFED50D32DF2052D09262AE0D /* Pods_ObjectClassification_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectClassification_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		903C9A443C87AEE17EEDE0E7CCBC37AD /* Pods-ObjectClassification_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjectClassification_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		91B6EC10D39E535DCCB8BF7D3D1F5C59 /* ObjectClassification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ObjectClassification.framework; path = ObjectClassification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B6EC10D39E535DCCB8BF7D3D1F5C59 /* ObjectClassification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectClassification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C532C273B4F9E308186EDA13F08A9A0 /* ObjectClassification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjectClassification.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A06D9C75B4106E9B18DA66A7BDA74850 /* Pods-ObjectClassification_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ObjectClassification_Example-dummy.m"; sourceTree = "<group>"; };
 		ACCC26460277F875BB3420575EE85F8E /* ObjectClassification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ObjectClassification.modulemap; sourceTree = "<group>"; };
 		B55AC0321D674D054603EA3297AC64BB /* Pods-ObjectClassification_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjectClassification_Example-Info.plist"; sourceTree = "<group>"; };
-		B7D6AC83172C67BBCB6CC0B918A537E6 /* ObjectClassification.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ObjectClassification.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B7D6AC83172C67BBCB6CC0B918A537E6 /* ObjectClassification.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ObjectClassification.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BB585CE710ECF1DB71998A173634F261 /* ObjectClassification-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectClassification-umbrella.h"; sourceTree = "<group>"; };
 		C3BBB0B2C606E96B68F948F1BBE62393 /* Pods-ObjectClassification_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ObjectClassification_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C703986E57406A7520F8DE8DD1569546 /* Pods-ObjectClassification_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ObjectClassification_Example.modulemap"; sourceTree = "<group>"; };
 		DD692992C9C351657BDF20CA3F7FFAB0 /* Pods-ObjectClassification_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ObjectClassification_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF37CF7E25B228D4003705CD /* MobileNetV2Int8LUT.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2Int8LUT.mlmodel; sourceTree = "<group>"; };
 		E1E28822EB574FB80FEACE5E8604BEF2 /* Pods-ObjectClassification_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjectClassification_Tests-Info.plist"; sourceTree = "<group>"; };
 		E806F59A86F860A254F9D086FC0F7AF5 /* Pods-ObjectClassification_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjectClassification_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F2A74CBB48C6F92608E426CCCE7D3920 /* Pods-ObjectClassification_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjectClassification_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -103,7 +103,10 @@
 		0FB8E2B52D043A045E26B17618A3D6CD /* ObjectClassification */ = {
 			isa = PBXGroup;
 			children = (
-				4E2C8A8426648D39D9E03B0EFD04DA13 /* ReplaceMe.swift */,
+				DF37CF7D25B22896003705CD /* Controllers */,
+				DF37CF7C25B2288E003705CD /* Service */,
+				DF37CF7B25B2287F003705CD /* Helpers */,
+				DF37CF7A25B22873003705CD /* Resources */,
 				70F3EB409945DD7429C84EA705634AE5 /* Pod */,
 				916A46EB7BA110DDE36F6C9267C4C569 /* Support Files */,
 			);
@@ -213,6 +216,35 @@
 			);
 			name = "Pods-ObjectClassification_Example";
 			path = "Target Support Files/Pods-ObjectClassification_Example";
+			sourceTree = "<group>";
+		};
+		DF37CF7A25B22873003705CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF37CF7E25B228D4003705CD /* MobileNetV2Int8LUT.mlmodel */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DF37CF7B25B2287F003705CD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DF37CF7C25B2288E003705CD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DF37CF7D25B22896003705CD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		EF615447249D84CA805DA629BE60373F /* Development Pods */ = {
@@ -376,7 +408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEA8BE6EF9671B49043A962FB1AD8647 /* ObjectClassification-dummy.m in Sources */,
-				699FC51AFB6BD3E42B5522DA1CC764F6 /* ReplaceMe.swift in Sources */,
+				DF37CF7F25B228D4003705CD /* MobileNetV2Int8LUT.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -487,7 +519,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ObjectClassification_Tests/Pods-ObjectClassification_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ObjectClassification_Tests/Pods-ObjectClassification_Tests.modulemap";
@@ -519,7 +551,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ObjectClassification_Example/Pods-ObjectClassification_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ObjectClassification_Example/Pods-ObjectClassification_Example.modulemap";
@@ -551,7 +583,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ObjectClassification/ObjectClassification-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ObjectClassification/ObjectClassification-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ObjectClassification/ObjectClassification.modulemap";
 				PRODUCT_MODULE_NAME = ObjectClassification;
@@ -616,13 +648,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -643,7 +674,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ObjectClassification_Tests/Pods-ObjectClassification_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ObjectClassification_Tests/Pods-ObjectClassification_Tests.modulemap";
@@ -676,7 +707,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ObjectClassification/ObjectClassification-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ObjectClassification/ObjectClassification-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ObjectClassification/ObjectClassification.modulemap";
 				PRODUCT_MODULE_NAME = ObjectClassification;
@@ -707,7 +738,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ObjectClassification_Example/Pods-ObjectClassification_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ObjectClassification_Example/Pods-ObjectClassification_Example.modulemap";
