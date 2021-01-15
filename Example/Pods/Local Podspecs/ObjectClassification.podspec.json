@@ -1,0 +1,22 @@
+{
+  "name": "ObjectClassification",
+  "version": "0.1.0",
+  "summary": "A short description of ObjectClassification.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fabriciosenna/ObjectClassification",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fabriciosenna": "fabriciosenna@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/fabriciosenna/ObjectClassification.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ObjectClassification/Classes/**/*"
+}

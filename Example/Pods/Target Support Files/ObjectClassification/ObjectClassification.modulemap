@@ -1,0 +1,6 @@
+framework module ObjectClassification {
+  umbrella header "ObjectClassification-umbrella.h"
+
+  export *
+  module * { export * }
+}
