@@ -1,6 +1,6 @@
 {
   "name": "ObjectClassification",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "summary": "A short description of ObjectClassification.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/fabriciosenna/ObjectClassification",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/fabriciosenna/ObjectClassification.git",
-    "tag": "0.1.0"
+    "tag": "1.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "12.0"
   },
   "source_files": "ObjectClassification/Classes/**/*"
 }

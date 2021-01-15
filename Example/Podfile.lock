@@ -1,5 +1,5 @@
 PODS:
-  - ObjectClassification (0.1.0)
+  - ObjectClassification (1.1.0)
 
 DEPENDENCIES:
   - ObjectClassification (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ObjectClassification: 1897cdea63be71ae3c2c7eba979651e34141d86e
+  ObjectClassification: 43048c65a80e30f6c66b90c83cfec57619d27f70
 
 PODFILE CHECKSUM: 26865716ced1914f605dddbb81bac8c916089101
 
